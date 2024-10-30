@@ -1,0 +1,98 @@
+html body {
+    font-family: "Karma", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.all{
+    margin-top: 100px ;
+    /* display: inline-block; */
+    /* padding: 8px 16px; */
+    width: 100%;
+
+}
+
+.top{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 68px;
+    top: 0;
+    background-color: white;
+}
+
+.top1{
+    width: 1200px;
+    margin: 0 119.667px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.top1 p{
+    font-size: 24px;
+    font-family: "Karma",sans-serif;
+}
+
+.top1 button{
+    border: none;
+    background-color: white;
+    padding: 0 0;
+}
+
+.top1 button p{
+    height: 36px;
+    width: 21.552px;
+    padding: 0 16px;
+}
+
+.main1{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* flex-direction: row; */
+    /* align-items: start; */
+    justify-content: center;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    width: 271.99px;
+    padding: 16px 8px;  
+}
+
+.img1 img{
+    width: 271.99px;
+    
+}
+
+.text1{
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.text2{
+    font-size: 15px;
+    margin: 5px 0 15px 0;
+    text-align: center;
+}
+
+.page{
+    display: block;
+    text-align: center;
+    
+    padding: 32px 0;
+}
+
+.page a{
+    text-decoration: none;
+    width: 6.5px;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: "Karma", sans-serif;
+}

@@ -1,0 +1,14 @@
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    padding: 20px;
+}
+.item img {
+    height: 400px;
+    width: 380px;
+}
+h1{
+    padding-left: 20px;
+}

@@ -1,0 +1,211 @@
+
+body,button{
+    font-family:"Montserrat",sans-serif;
+    margin: 0 0;
+}
+
+nav{
+    background: #f44336;
+    height: 51px;
+    width: 100vw;
+    position: fixed;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4) ;
+    top: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    height: 51px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: flex;
+    color:#ffffff;
+    padding: 12px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.toptext1{
+    color: black;
+    background-color: white;
+}
+
+.toptext1:hover{
+    background-color: gainsboro;
+}
+
+header{
+    background-color: #f44336;
+    height: 263px;
+    padding: 128px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    display: flex;
+    font-size: 68px;
+    margin: 16px;
+    color: white;
+    height: 96px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header p{
+    display: flex;
+    color: white;
+    margin: 24px 0px;
+    font-size: 28px;
+    height: 36px;
+    font-family:"Lato",sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: black;
+    padding: 12px 24px;
+    margin: 16px 0 0;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    border: 0;
+}
+
+button:hover{
+    color: #000;
+    background-color: gainsboro;
+}
+
+.article1{
+    padding: 64px 16px;
+    height: 512;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1{
+    height: 384px;
+    width: 653.32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article h1{
+    font-size: 40px;
+    height: 54px;
+    margin: 10px 0px;
+}
+
+article h5{
+    margin: 10px 0;
+    padding: 32px 0;
+    font-family:"Lato",sans-serif;
+    font-size: 18px;
+}
+
+article p{
+    margin: 15px 0;
+    color: #757575;
+}
+
+.img1{
+    width: 326.66px;
+    height: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article img{
+    width: auto;
+    height: auto;
+    padding: 64px 0px;
+}
+
+.article2{
+    padding: 64px 16px;
+    height: 512;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.article3{
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 16px;
+    background-color: #666666;
+}
+
+.slogan{
+    height: 36px;
+    margin: 16px;
+    color: white;
+    font-size: 24px;
+}
+
+footer{
+    height: 152.5px;
+    padding: 64px 16px;
+    text-align: center;
+    font-size: 24px;
+    font-family:"Lato",sans-serif;
+}
+
+.img2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+footer div img{
+    height: 21px;
+    width: 21px;
+    padding: 3px;
+    filter: brightness(100%) invert(40%);
+}
+
+footer div img:hover{
+    filter: brightness(100%) invert(70%);
+}
+
+footer p{
+    height: 22.5px;
+    margin: 15px 0px;
+    font-size: 15px;
+    font-family:"Lato",sans-serif;
+    color: #666666;
+}
+
+footer a{
+    color: #666666;
+}

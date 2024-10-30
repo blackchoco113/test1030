@@ -1,0 +1,50 @@
+div.container {
+  text-align: center;
+  background-color: grey;
+}
+div.space{
+    height: 50PX;
+    background-color: #000000;
+}
+div.page{
+    margin-top:-19.92px;
+    background-color: #00cc99;
+    height:  50px;
+    display: flex;
+    justify-content:center;
+}
+div.song{
+    padding-top: 20px;
+    text-align: center;
+}
+ul.myUL {
+  display: inline-block;
+  margin-bottom: 19.92px;
+  text-align: left;
+}
+select{
+    margin: 10px 0 0 0 ;
+}
+footer{
+    padding-top: 25px;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+div.listen{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+button{
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-bottom: 5px;
+    min-height:30px; 
+    min-width: 120px;
+}
+body{
+    margin: -8px -8px -8px -8px;
+}

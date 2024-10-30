@@ -1,0 +1,10 @@
+img{
+ width: 355px;
+}
+h1{
+    padding-left: 20px;
+}
+th,tr,table{
+    text-align: left;
+    border-spacing: 20px 0;
+}
